@@ -1,0 +1,451 @@
+
+body{
+    background-color: #f5f5f5;
+}
+.home{
+    background-image: url(../images/intro.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.goHome{
+   
+     color: #FFF;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    padding: 10px;
+      /* border: 5px solid blue; */
+     border-radius: 50%!important;
+     font-size: 20px;
+     z-index: 2;
+}
+.DevFolio{
+    font-size: 25px;
+    font-weight: bolder;
+ 
+}
+.DevFolio img{
+ width: 7.5%;
+ height: 5%;
+ 
+    /* background-color: rgba(0, 0, 0, 0.5); */
+   
+}
+.myNavBar{
+    background-color: rgba(0, 0, 0,0.8) ;
+}
+.listItem{
+    margin:0px 10px ;
+}
+.listItem > a{
+    color: white !important;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    position: relative;
+    /* overflow: hidden; */
+}
+.navbar-toggler{
+    background-color: white;
+}
+ 
+.listItem >a::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0%;
+    left:  0%;
+    
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
+     }
+     .listItem a:hover::after{
+         width: 100%;
+        
+         
+}
+
+.headerCaption{
+    color: #FFF;
+}
+.aboHgr{
+    font-weight: 900; font-size: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+.dropdown-item{
+        /* color: black !important; */
+}
+
+/*************************** page 2 About ***************************/
+.space_between_Sections
+{
+    margin: 5% 0%;
+}
+.sectionHeading{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.about> .container {
+  background-color: rgba(255, 255, 255,0.5);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.about_caption{
+    /* width: 50%; */
+    /* background-color: blue; */
+}
+
+
+.about_caption p{
+    font-size: 1.25rem;
+    
+}
+.my_info{
+    font-weight: bold;
+    color: #000;
+}
+.skill_item p{
+    padding-bottom: 0px;
+}
+
+.about_me{
+    padding-bottom: 10px;
+    position: relative;
+}
+.about_me::after{
+    content: "";
+     position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 20%;
+   
+    height: 3px;
+    background-color: blue;
+}
+
+
+
+/************** page 3 Services **************/
+.line{
+    width: 5%;
+}
+
+.services h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.icon_div i{
+    transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -ms-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+}
+.icon_div{
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -ms-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+}
+
+.service_Item{
+    background-color: #FFF;
+    border-radius: 10px;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.service_Item h4{
+/* padding: 10px 0px; */
+text-transform: uppercase;
+}
+.service_Item p{
+    padding: 10px 0px;
+    }
+.service_Item:hover .icon_div i{
+    transform: scale(1.15);
+    /*background-color: blue;
+    border-color: rgba(250, 244, 250, 0.5)!important;
+    color: #FFF;
+    */-webkit-transform: scale(1.2);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+}
+
+/************** Statistics page 4********************/
+.statistics{
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+.smallerIcon{
+    margin: auto;
+    width: 30%;
+    font-size: 30px;
+    color: #FFF;
+    padding: 20px !important;
+    
+    border: 50px solid rgb(116, 17, 17) ! ;
+    border-radius: 50% !important;
+}
+.stat_item{
+    margin: 60px 0px;
+}
+.stat_item h4{
+    font-size: 32px;
+}
+.blue_background
+{
+    background-color:rgba(0, 120, 255,0.5);
+}
+
+/****************** portofolia page 5 ********************/
+.port_container h2{
+    font-size: 3rem;
+}
+
+.add_Icon{
+    font-size: 40px;
+    color:#0078ff ;
+}
+
+.catagory{
+    color: #0078ff;
+}
+.small_font{
+    font-size: 0.8rem;
+}
+.portofolia_card img{
+    transition: transform 1s ;
+}
+.portofolia_card:hover img{
+transform: scale(1.15);
+}
+
+
+
+/***************** page 6 Recommendation *********************/
+.blue_leafs{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .slider_Image{
+     width: 20%;
+ }
+ .slider_details p{
+     font-size:  1.20rem;
+     padding: 20px;
+ }
+ .spot_Button{
+     width: 5px !important;
+     padding: 5px !important;
+     border: 1px solid white !important;
+     border-radius: 50%!important;
+ }
+ .blue_background >.container{
+     padding: 100px 0px;
+ }
+
+/****************** page 7 Blog ********************/
+.blog_card_title_link:hover {
+   color: #0078ff!important;
+}
+
+.card , .card img{
+    border-radius: 0px!important;
+}
+
+
+.card_footer_image {
+    width: 10%;
+   
+}
+.card_footer_image img { border-radius: 50%!important;
+}
+.card_footer_details{
+    width: 90%;
+}
+
+/**************page8 Contact***************/
+.form-control{
+    border-radius: 0px !important;
+}
+
+.sendButton {
+    font-size: 1.5rem!important;
+}
+.font-20{
+    font-size: 20px;
+    line-height: 35px;
+    color: #4e4e4e;
+}
+.getTouch_container{
+
+    font-size: 1.2rem;
+}
+.getTouch_container p{
+
+    margin: 40px 0px;
+}
+.getTouch_container p > i{
+    
+    font-size: 1.5rem;
+
+}
+.social_icons {
+    font-size: 30px;
+    color: black;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.social_icons_divs:hover i{
+    color: #FFF;
+}
+.social_icons_divs:hover {
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    background-color:#0078ff;
+    border-color: rgba(21, 21, 22, 0.2)!important;
+}
+
+.blueBox{
+    font-size: 12px !important;
+}
+
+/* .blue_shadow{
+    box-shadow: 2px 10px rgb(146, 22, 22) !important;
+} */
+
+/********footer************/
+footer{
+    background-color: #0062d3;
+ 
+}
+@media screen and (max-width:590px){
+
+    .slider_Image{
+        width: 40%;
+    }
+    /*************** Page 1****************/
+    .aboHgr{
+        font-weight: 900; font-size: 35px;
+    } 
+
+    /*********** page 2 About **********/
+    .my_info_img{
+        width: 50% !important;
+        /* text-align: left;        background-color: blue !important; */
+
+    }
+    .my_info_details{
+        width: 70% !important;
+        margin-top: 20px;
+    }
+    .my_info_Container{
+        justify-content: flex-start !important;
+    }
+    .about_me{
+        font-size: 30px;
+    }
+    .about_me::after{
+        content: "";
+         position: absolute;
+        bottom: 0%;
+        left: 0;
+        width: 60%;
+       
+        height: 3px;
+        background-color: blue;
+    }
+
+    /*********** page 5 Portofolia**********/
+    .item_Container{
+        margin-top: 40px;
+    }
+    /************page 7 Blog***********/
+    .card_container{
+        margin-top: 30px;
+    }
+/*************  page 8 Contact*****************/
+.sendButton button{
+    font-size: 1.25rem!important;
+}
+.social_icons {
+    font-size: 20px;
+ }
+
+
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 591px){
+   
+    /********************* Page 1 ***************/
+    .aboHgr{
+        font-weight: 900; font-size: 50px;
+    } 
+/************** page 2**************/
+    .about_me{
+        font-size: 30px;
+    }
+    .about_me::after{
+        content: "";
+         position: absolute;
+        bottom: 0%;
+        left: 0;
+        width: 50%;
+       
+        height: 3px;
+        background-color: blue;
+    }
+    /************ page 3*************/
+    .icon_div{
+      
+         padding:3rem !important;
+    
+    }
+    .slider_Image{
+        width: 30%;
+    }
+}
+
+/* @media screen and (max-width: 1200px) and (min-width: 1001px){
+    .about_me::after{
+        content: "";
+         position: absolute;
+        bottom: 0%;
+        left: 0;
+        width: 40%;
+       
+        height: 3px;
+        background-color: blue;
+    }
+} */
